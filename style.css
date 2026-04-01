@@ -1,13 +1,61 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 40px;
+  margin: 0;
   background-color: #f5f5f5;
+  color: #222;
 }
 
-h1 {
-  color: #2c3e50;
+.navbar {
+  background-color: #2c3e50;
+  padding: 14px 20px;
 }
 
-p {
-  color: #555;
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 18px;
+  font-weight: bold;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px 40px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1.05rem;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.note {
+  border-left: 5px solid #b85c38;
 }
