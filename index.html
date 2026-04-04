@@ -3,13 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>Italy Summer 2026</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, Oksana</h1>
-  <p>This is my first hosted website. Today date is March 31, 2026</p>
-  <p><a href="rome-day2.html">Rome Day 2 — Ancient Rome</a></p>
-  <script src="script.js"></script>
+  <header class="hero">
+    <img src="milan.png" alt="Italy" class="hero-image">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Italy Summer 2026</h1>
+        <p class="hero-subtitle">Rome → Naples → Ischia → Rome</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro-card">
+      <h2>Trip Overview</h2>
+      <p>
+        Main launcher for the Italy trip. Jump directly to each day's plan from here.
+      </p>
+    </section>
+
+    <section class="trip-card">
+      <h2 class="trip-title">Rome I <span>July 8–12</span></h2>
+      <div class="day-links">
+        <a href="rome-day1.html">Day 1 <span>(Jul 8)</span></a>
+        <a href="rome-day2.html">Day 2 <span>(Jul 9)</span></a>
+        <a href="rome-day3.html">Day 3 <span>(Jul 10)</span></a>
+        <a href="rome-day4.html">Day 4 <span>(Jul 11)</span></a>
+        <a href="rome-day5.html">Day 5 <span>(Jul 12)</span></a>
+      </div>
+    </section>
+
+    <section class="trip-card">
+      <h2 class="trip-title">Naples <span>July 12–17</span></h2>
+      <div class="day-links">
+        <a href="naples-day1.html">Day 1 <span>(Jul 12)</span></a>
+        <a href="naples-day2.html">Day 2 <span>(Jul 13)</span></a>
+        <a href="naples-day3.html">Day 3 <span>(Jul 14)</span></a>
+        <a href="naples-day4.html">Day 4 <span>(Jul 15)</span></a>
+        <a href="naples-day5.html">Day 5 <span>(Jul 16)</span></a>
+        <a href="naples-day6.html">Day 6 <span>(Jul 17)</span></a>
+      </div>
+    </section>
+
+    <section class="trip-card wedding-card">
+      <h2 class="trip-title">Wedding Day <span>July 17</span></h2>
+      <div class="day-links">
+        <a href="wedding-day.html">Wedding <span>(Jul 17)</span></a>
+      </div>
+    </section>
+
+    <section class="trip-card">
+      <h2 class="trip-title">Ischia <span>July 17–20</span></h2>
+      <div class="day-links">
+        <a href="ischia-day1.html">Day 1 <span>(Jul 17)</span></a>
+        <a href="ischia-day2.html">Day 2 <span>(Jul 18)</span></a>
+        <a href="ischia-day3.html">Day 3 <span>(Jul 19)</span></a>
+      </div>
+    </section>
+
+    <section class="trip-card">
+      <h2 class="trip-title">Rome II <span>July 20–22</span></h2>
+      <div class="day-links">
+        <a href="rome2-day1.html">Day 1 <span>(Jul 20)</span></a>
+        <a href="rome2-day2.html">Day 2 <span>(Jul 21)</span></a>
+        <a href="rome2-day3.html">Departure <span>(Jul 22)</span></a>
+      </div>
+    </section>
+
+    <section class="notes-card">
+      <h2>Notes</h2>
+      <ul>
+        <li>Use this page as the main trip launcher.</li>
+        <li>Keep logistics, reservations, and budget in separate support pages.</li>
+        <li>Later, the full visual style can be updated globally through one CSS file.</li>
+      </ul>
+    </section>
+
+    <section class="quick-links-card">
+      <div class="quick-links">
+        <a href="logistics.html" class="utility-button">Logistics</a>
+        <a href="budget.html" class="utility-button">Budget</a>
+        <a href="reservations.html" class="utility-button">Reservations</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

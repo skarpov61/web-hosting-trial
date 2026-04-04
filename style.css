@@ -31,8 +31,31 @@ body {
   margin-bottom: 20px;
 }
 
+.hero-image {
+  width: 100%;
+  display: block;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  text-align: center;
+}
+
 .hero h1 {
   margin-bottom: 8px;
+}
+
+.hero-subtitle {
+  color: #666;
+  font-size: 1.05rem;
 }
 
 .subtitle {
